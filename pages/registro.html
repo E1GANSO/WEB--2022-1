@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MiSalud</title>
+
+	
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="../img/Logo_Final_1_Azul.png">
+
+
+  </head>
+  <body>
+
+    <div class="container" id="contenedor">
+	<!--ROW 1-->
+	<div class="row align-items-start" style="padding-bottom: 3em;">
+		<div class="col-md-1">
+			<img src="../img/Logo_Final_1_Azul.png" >
+		</div>
+		<div class="col-md-8" >
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+				  <a class="nav-link" aria-current="page" href="../index.html" style="color: rgb(0, 0, 0);">Inicio</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#" style="color: rgb(0, 0, 0);">Cursos</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="./registro.html" style="background-color: rgb(8, 123, 255); color: white;">Registrarse</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="./acceder.html" style="color: rgb(0, 0, 0);">Acceder</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-3">
+			<nav class="navbar navbar-light bg-light">
+				<div class="container-fluid" >
+				  <form class="d-flex" >
+					<input class="form-control me-2" type="search" placeholder="Escriba aqui" aria-label="Search" style="width: auto;" >
+					<button class="btn btn-outline-info" type="submit">Buscar</button >
+				  </form>
+				</div>
+			  </nav>
+		  </ul>
+		</div>
+	</div>
+
+	
+
+	<!--ROW 2-->
+	<div class="row" style="padding-bottom: 7em;">
+        <!--COL 1-->
+		<div class="col-md-6 col-ms-12">
+            <!--ROW 2.1-->
+			<div class="row text-white" style="border-style: double; color: rgb(224, 36, 36); background-color: rgb(31, 40, 55);">
+                <!--COL 2.1-->
+                <div class="col-md-6">
+                    <form role="form">
+                        <label for="fname" >Nombre</label>
+						<input type="text" id="fname" name="fname">
+
+						<label for="Apellido" style="color: white;">Apellido</label>
+						<input type="text" id="Apellido" name="Apellido">
+
+						<label for="Institution" style="color: white;">Institucion</label>
+						<input type="search" id="Institution" name="Institution">
+
+						<label for="email" style="color: white;">Correo electronico</label>
+						<input type="email" id="email">
+
+						<label for="Telefono" style="color: white;">Telefono</label>
+						<input type="tel" id="Telefono" name="Telefono">
+                    </form>
+                </div>
+                <!--COL 2.2-->
+                <div class="col-md-6 col-ms-12">
+					<form role="form">
+						
+						<label for="pet-select">Ocupación</label> <br>
+						<input type="radio" id="docente" name="ocupacion" value="docente">
+						<label for="docente">Docente</label><br>
+						<input type="radio" id="student" name="ocupacion" value="student">
+						<label for="stydent">Estudiante</label>
+						<br>
+
+                        <label for="pet-select" id="select-pet">Genero</label>
+						<select id="pet-select">
+							<option value="stundet">---Seleccionar---</option>
+							<option value="hombre">Hombre</option>
+							<option value="mujer">Mujer</option>
+						</select>
+						
+						<label for="pass">Password (8 caracteres minimo):</label>
+						<input type="password" id="pass" name="password" minlength="8" required> <br>
+
+						<label for="pass">confirmar Password:</label>
+						<input type="password" id="pass" name="password" minlength="8" required> <br>
+
+						<input type="checkbox" id="termino" name="termino">
+						<label for="termino" style="color: white;">Aceptar terminos y condiciones</label>
+
+						<button type="submit" style="font-family: sans-serif;">Registrarme</button>
+
+                    </form>
+                </div>
+            </div>
+		</div>
+        <!--COL 2-->
+		<div class="col-md-4 align-self-center">
+			<h4>
+				¡BIENVENIDO A LA FAMILIA!
+			</h4>
+			<p>
+				Completa el cuadro que está a tu izquierda con tus datos personales y comienza una nueva aventura.
+			</p>
+		</div>
+
+        <!--COL 3-->
+		<div class="col-md-2">
+			<img src="../img/registro_1-removebg-preview.png">
+		</div>
+	</div>
+	
+	
+	<!--ROW 3-->
+	<div class="row align-items-center" id="final_">
+		<div class="col-md-2 col-ms-12">
+			<img src="../img/Doctor_Covid_2.png">
+		</div>
+		<div class="col-md-3 col-ms-12">
+			 
+			<address>
+				 <strong>Sobre nosotros</strong><br> <a href="..//3.1. Hoja de vida/index.html">Desarrollador</a><br> <a href="../3.2 Hoja de Vida/index.html">Diseñador</a><br> Cel: (123) 456-7890
+			</address>
+		</div>
+		<div class="col-md-3 col-ms-12">
+			 
+			<address>
+				 <strong>Productos y servicios</strong><br>° Lorem ipsum dolor sit amet.<br> °consectetur adipisicing elit.</br> °Lorem ipsum dolor sit.
+			</address>
+		</div>
+		<div class="col-md-2 col-ms-12">
+			 
+			<address>
+				 <strong>Centro de ayuda</strong><br>° Lorem ipsum dolor sit amet.<br> °Lorem ipsum dolor sit amet.
+			</address>
+		</div>
+		<div class="col-md-2 col-ms-12">
+			<img src="../img/Logo_Final_2.png">
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
